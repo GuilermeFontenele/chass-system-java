@@ -3,11 +3,11 @@ package boargame;
 public class Position {
 
 	private int row;
-	private int colluns;
+	private int column;
 	
 	public Position(int row, int colluns) {
 		this.row = row;
-		this.colluns = colluns;
+		this.column = colluns;
 	}
 
 	public int getRow() {
@@ -19,17 +19,17 @@ public class Position {
 	}
 
 	public int getColluns() {
-		return colluns;
+		return column;
 	}
 
 	public void setColluns(int colluns) {
-		this.colluns = colluns;
+		this.column = colluns;
 	}
 	
 	@Override
 	public String toString() {
 		
-		return row + ", " + colluns;
+		return row + ", " + column;
 	}
 	
 }
